@@ -1,115 +1,116 @@
 /* Place your CSS styles in this file */
 body{
-  background-color: #555;
-}
-.navbar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
-
-}
-.image{
-  display: block;
-  float: right;
-  margin-right: 300px;
-  border: 2px solid red;
-
-}
-.profile{
-  color:white;
-  margin-left:200px;
-  margin-top: 100px;
-}
-
-/* Navbar links */
-.navbar a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Navbar links on mouse-over */
-.navbar a:hover {
-  background-color: rgb(67, 192, 250);
-}
-
-/* Current/active navbar link */
-.active {
-  background-color: #555;
-}
-
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
+    background-color: #555;
   }
-}
-img{
+  .navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  
+  }
+  .image{
+    display: block;
+    float: right;
+    margin-right: 300px;
+    border: 2px solid red;
+  
+  }
+  .profile{
+    color:white;
+    margin-left:200px;
+    margin-top: 100px;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: rgb(67, 192, 250);
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #555;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  img{
+      margin: 5px;
+    border: 1px solid #ccc;
+    float:left;
+    width: 120px;
+  
+  }
+  h1 {
+      text-align:center;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: normal;
+      color:blue;
+      text-decoration:underline;
+      text-shadow: 1px;
+     
+  }  
+      .tweet_button{
+          background-color: rgb(2, 158, 255);
+          color: white;
+          border: none;
+          height: 32px;
+          width: 380px;
+          border-radius: 18px;
+          font-weight: bold;
+          font-size: 30px;
+          cursor: pointer;
+          
+      }
+      .tweet_button:hover
+      {
+          box-shadow: 10px 10px 5px rgb(178, 182, 182) ;
+          
+          
+      }
+      .tweet_button:active{
+          opacity: 0.5;
+          color:red;
+      }
+      div.gallery {
     margin: 5px;
-  border: 1px solid #ccc;
-  float:left;
-  width: 120px;
-
-}
-h1 {
-    text-align:center;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: normal;
-    color:blue;
-    text-decoration:underline;
-    text-shadow: 1px;
-   
-}  
-    .tweet_button{
-        background-color: rgb(2, 158, 255);
-        color: white;
-        border: none;
-        height: 32px;
-        width: 380px;
-        border-radius: 18px;
-        font-weight: bold;
-        font-size: 30px;
-        cursor: pointer;
-        
-    }
-    .tweet_button:hover
-    {
-        box-shadow: 10px 10px 5px rgb(178, 182, 182) ;
-        
-        
-    }
-    .tweet_button:active{
-        opacity: 0.5;
-        color:red;
-    }
-    div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 160px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-div.gallery img {
-  width: 92%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-.title_words{
-  text-align: center;
-  font-size: 12px;
-  font-weight: bold;
-  color:red;
-}
-    
-
+    border: 1px solid #ccc;
+    float: left;
+    width: 160px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  div.gallery img {
+    width: 92%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .title_words{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color:red;
+  }
+      
+  
+  
